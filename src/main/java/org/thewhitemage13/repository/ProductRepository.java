@@ -6,5 +6,4 @@ import org.thewhitemage13.entity.Product;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
-
 }

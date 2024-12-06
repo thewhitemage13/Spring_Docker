@@ -4,11 +4,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.thewhitemage13.entity.Product;
 import org.thewhitemage13.repository.ProductRepository;
 
 import java.util.List;
 
+@EnableCaching
 @SpringBootApplication
 public class SpringDockerApplication implements CommandLineRunner {
     @Autowired
